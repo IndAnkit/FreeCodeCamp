@@ -1,19 +1,18 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "fcc-learn-npm-package-json",
+  "author": "foobar",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IndAnkit/FreeCodeCamp.git"
-  },
-  "author": "Ankit Patidar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IndAnkit/FreeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/IndAnkit/FreeCodeCamp#readme"
+    "url": "https://idontknow/todo.git"
+  }
 }
